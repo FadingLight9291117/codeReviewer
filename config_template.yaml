@@ -1,0 +1,25 @@
+# AI路由器配置文件示例
+# 请将此文件保存为 config.yaml 并填入正确的API信息
+
+config:
+  openai:
+    # OpenRouter API配置
+    base_url: https://openrouter.ai/api/v1
+    
+    # 请在 https://openrouter.ai 注册并获取API密钥
+    # 将下面的 YOUR_API_KEY_HERE 替换为你的实际API密钥
+    api_key: sk-or-v1-YOUR_API_KEY_HERE
+    
+    # 默认使用的模型
+    model: "openai/gpt-4o"
+    
+    # 可选：组织名称
+    organization: ""
+
+# 支持的模型列表（参考）:
+# OpenAI: openai/gpt-4o, openai/gpt-4o-mini, openai/gpt-3.5-turbo
+# Anthropic: anthropic/claude-3-opus, anthropic/claude-3-sonnet
+# Google: google/gemini-pro
+# Meta: meta-llama/llama-3-70b-instruct
+# Mistral: mistralai/mistral-7b-instruct
+# Qwen: qwen/qwen-2-72b-instruct
