@@ -46,11 +46,11 @@ class AIRouter:
             
             # 设置默认参数
             default_params = {
-                'temperature': 0.7,
-                'max_tokens': 2000,
-                'top_p': 1.0,
-                'frequency_penalty': 0.0,
-                'presence_penalty': 0.0
+                # 'temperature': 0.7,
+                # 'max_tokens': 2000,
+                # 'top_p': 1.0,
+                # 'frequency_penalty': 0.0,
+                # 'presence_penalty': 0.0
             }
             
             # 合并用户参数
